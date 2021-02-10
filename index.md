@@ -15,9 +15,7 @@ docker pull ultimaker/cura-build-environment
 2. 아래 코드를 build.ps1에 삽입
 ExternalProject_Add(myProj
   GIT_REPOSITORY  https://github.com/my/project
-  ...
   GIT_CONFIG      http.sslVerify=false
-  ...
 )
 
 docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
