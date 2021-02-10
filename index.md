@@ -12,7 +12,7 @@ cd cura-build-environment
 docker pull ultimaker/cura-build-environment
 
 1. docker/windows/Dockerfile.vs2015 파일에서 1809 을 1607로 바꾼다. (crlt+H)
-2. 아래 코드를 삽입
+2. 아래 코드를 build.ps1에 삽입
 ExternalProject_Add(myProj
   GIT_REPOSITORY  https://github.com/my/project
   ...
