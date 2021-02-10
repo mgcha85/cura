@@ -4,7 +4,8 @@
 cd C:\Users\ROKIT\Documents  
 git clone https://github.com/Ultimaker/cura-build-environment  
 docker pull ultimaker/cura-build-environment  
-docker build -t cura-build-env -f docker/linux/Dockerfile.centos .  
+docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
+
 ```
 
 ## Welcome to GitHub Pages
