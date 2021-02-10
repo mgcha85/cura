@@ -1,4 +1,9 @@
-## [cura build](https://github.com/Ultimaker/cura-build)
+## [cura build](https://github.com/Ultimaker/cura-build)\
+1. cmake 설치
+2. git 설치
+3. subversion aka svn
+
+
 ## [cura build environment](https://github.com/Ultimaker/cura-build-environment)
 ```
 cd C:\Users\ROKIT\Documents
