@@ -4,6 +4,7 @@
 cd C:\Users\ROKIT\Documents  
 git clone https://github.com/Ultimaker/cura-build-environment  
 cd cura-build-environment  
+docker/windows/Dockerfile.vs2015 파일에서 1809 을 1607로 바꾼다.
 docker pull ultimaker/cura-build-environment  
 docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
 
