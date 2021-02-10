@@ -1,3 +1,12 @@
+## [cura build](https://github.com/Ultimaker/cura-build)
+## [cura build environment](https://github.com/Ultimaker/cura-build-environment)
+"""
+cd C:\Users\ROKIT\Documents
+git clone https://github.com/Ultimaker/cura-build-environment
+docker pull ultimaker/cura-build-environment
+docker build -t cura-build-env -f docker/linux/Dockerfile.centos .
+"""
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mgcha85/cura/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
