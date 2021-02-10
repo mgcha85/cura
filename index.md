@@ -1,11 +1,11 @@
 ## [cura build](https://github.com/Ultimaker/cura-build)
 ## [cura build environment](https://github.com/Ultimaker/cura-build-environment)
-
-- cd C:\Users\ROKIT\Documents
-- git clone https://github.com/Ultimaker/cura-build-environment
-- docker pull ultimaker/cura-build-environment
-- docker build -t cura-build-env -f docker/linux/Dockerfile.centos .
-
+```
+cd C:\Users\ROKIT\Documents  
+git clone https://github.com/Ultimaker/cura-build-environment  
+docker pull ultimaker/cura-build-environment  
+docker build -t cura-build-env -f docker/linux/Dockerfile.centos .  
+```
 
 ## Welcome to GitHub Pages
 
