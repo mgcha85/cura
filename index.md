@@ -50,6 +50,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 cd /home/mingyu/Downloads
 git clone https://github.com/Ultimaker/cura-build-environment
+cd cura-build-environment
 sudo docker pull ultimaker/cura-build-environment
 sudo docker build -t cura-build-env -f docker/linux/Dockerfile.centos .
 ```
