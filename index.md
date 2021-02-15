@@ -26,7 +26,7 @@ docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
 ### Install Dependencies
 ```
 sudo apt-get update
-sudo apt install cmake && git && subversion
+sudo apt install cmake git subversion
 
 ```
 ### Install Docker
