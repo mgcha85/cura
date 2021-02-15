@@ -46,6 +46,11 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+### Build Docker Image
+```
+docker pull ultimaker/cura-build-environment
+docker build -t cura-build-env -f docker/linux/Dockerfile.centos .
+```
 
 ## Welcome to GitHub Pages
 
