@@ -24,13 +24,13 @@ docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
 
 
 ## Installation CURA on local Windows machine
-```
+
 1. Microsoft Visual Studio 2015 (Recommended) - Download Microsoft Visual Studio from [here (Web Installer)](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409) or [here (ISO Image)](https://go.microsoft.com/fwlink/?LinkId=615448&clcid=0x409).
 2. [MinGW-w64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
 - 설치를 할때 "select Architecture: i686 for 32bit or x86_64 for 64bit systems"
 - 설치 폴더가 "C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (or the i686 equivalent)" 나오게끔 위의 설정을 바꾼다.
 3. [Python 3.5](https://www.python.org/downloads/release/python-3510/) 를 설치.
-```
+
 
 
 
