@@ -30,7 +30,7 @@ docker build -t cura-build-env -f docker/windows/Dockerfile.vs2015 .
 - 설치를 할때 "select Architecture: i686 for 32bit or x86_64 for 64bit systems"
 - 설치 폴더가 "C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (or the i686 equivalent)" 나오게끔 위의 설정을 바꾼다.
 3. [Python 3.5](https://www.python.org/downloads/release/python-3510/) 를 설치.
-
+```
 
 
 
